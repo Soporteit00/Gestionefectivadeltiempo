@@ -1,0 +1,135 @@
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 75%;
+	height: 40px;
+	background-color: #0A2D72;
+	border-radius: 5px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 90%;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+    font-size: 45px;
+    margin-left: 30%;
+    font-family: 'Alegreya', serif;
+}
+
+h2{
+    font-family: 'Alegreya', serif;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Alegreya', serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Alegreya', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left{
+    font-size: 50px;
+    margin-right: 75%;
+    color: #0A2D72;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-40%);
+}
+
+.right{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-40%);
+    font-size: 50px;
+    margin-left: 70%;
+    color: #0A2D72;
+    border: #fff;
+}
+
+.card1 {
+  position: relative;
+  width: 360px;
+  height: 550px;
+  background: #fff;
+  border: solid 4px #333;
+  box-shadow: -5px 5px #333;
+  transition: all .2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 18%;
+}
+
+.card1:hover {
+  margin: 10px 10px 0 0;
+  box-shadow: 0px 0px #0A2D72;
+}
+
+.card1 .text-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: filter .2s 1s ease-in-out;
+}
+
+.card:hover .text-card {
+  filter: blur(1px);
+}
+
+.card1 .add-cart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 250px;
+  font-weight: bold;
+  font-size: 19px;
+  opacity: 0;
+}
+
+.card1:hover .add-cart {
+  opacity: 1;
+  transition: opacity .3s 1s ease-in-out;
+}
+
+.card1 .info-card {
+  position: absolute;
+  height: 180px;
+  width: 340px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: solid 1px #333;
+}
+
+.card1 .info-card p {
+  font-size: 20px;
+  margin: 5px;
+}
+

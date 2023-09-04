@@ -1,0 +1,164 @@
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 75%;
+	height: 40px;
+	background-color: #0A2D72;
+	border-radius: 5px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 90%;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+    font-size: 45px;
+    margin-left: 30%;
+    font-family: 'Alegreya', serif;
+}
+
+h2{
+    font-family: 'Alegreya', serif;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Alegreya', serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Alegreya', serif;
+    font-size: 25px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left{
+    font-size: 50px;
+    margin-right: 75%;
+    color: #0A2D72;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-40%);
+}
+
+.right{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-40%);
+    font-size: 50px;
+    margin-left: 70%;
+    color: #0A2D72;
+    border: #fff;
+}
+
+.cardBox {
+  margin-left: 15%;
+    width: 395px;
+    height: 520px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px,
+      rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
+  }
+  
+  .cards {
+    position: absolute;
+    width: 96%;
+    height: 95%;
+    background: #ffffff;
+    border-radius: 20px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #000000;
+    overflow: hidden;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+  }
+  
+  .cards .h4 {
+    font-family: 'Alegreya', serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 800;
+    pointer-events: none;
+    opacity: .5;
+  }
+  
+  .cards .content .h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  
+  .cards .content p {
+    font-family: 'Alegreya', serif;
+    font-size: 22px;
+    line-height: 1.4em;
+  }
+  
+  .cards .content {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .cards:hover .content {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .cards:hover .h4 {
+    opacity: 0;
+  }
+  
+  .cardBox::before {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 150%;
+    background: #a2fff6;
+    background: -webkit-linear-gradient(to right, #0A2D72, #0A2D72);
+    background: linear-gradient(to right, #0A2D72, #0A2D72);
+    transform-origin: center;
+    animation: glowing_401 5s linear infinite;
+  }
+  
+  @keyframes glowing_401 {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  li{
+    font-family: 'Alegreya', serif;
+    font-size: 25px;
+  }
