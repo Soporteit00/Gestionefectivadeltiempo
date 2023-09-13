@@ -1,7 +1,7 @@
 nav {
 	margin: 27px auto 0;
 	position: relative;
-	width: 75%;
+	width: 80%;
 	height: 40px;
 	background-color: #0A2D72;
 	border-radius: 5px;
@@ -50,28 +50,29 @@ p{
     margin-right: 75%;
     color: #0A2D72;
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-40%);
-}
-
-.right{
+  }
+  
+  .right{
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-40%);
     font-size: 50px;
-    margin-left: 70%;
+    margin-left: 75%;
     color: #0A2D72;
     border: #fff;
-}
+  }
 
 .rombo{
-    width: 410px;
-    height: 410px;
+    width: 350px;
+    height: 350px;
     background-color:#f9b515;
     transform: rotate(45deg);
     box-shadow: 2px 2px 8px 4px #0A2D72;
     margin-top: 20%;
     margin-bottom: 9%;
+    margin-left: 15%;
 }
 
 
@@ -83,6 +84,8 @@ p{
 }
 
 .video{
-    width: 410px;
+    width: 600px;
     margin-top: 10%;
+    margin-top: 20%;
+
 }

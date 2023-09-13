@@ -1,7 +1,7 @@
 nav {
 	margin: 27px auto 0;
 	position: relative;
-	width: 75%;
+	width: 80%;
 	height: 40px;
 	background-color: #0A2D72;
 	border-radius: 5px;
@@ -45,29 +45,30 @@ p{
     
 }
 
+
 .left{
-    font-size: 50px;
-    margin-right: 75%;
-    color: #0A2D72;
-    position: absolute;
-    top: 30%;
-    transform: translateY(-40%);
+  font-size: 50px;
+  margin-right: 75%;
+  color: #0A2D72;
+  position: absolute;
+  top: 42%;
+  transform: translateY(-40%);
 }
 
 .right{
-    position: absolute;
-    top: 30%;
-    transform: translateY(-40%);
-    font-size: 50px;
-    margin-left: 70%;
-    color: #0A2D72;
-    border: #fff;
+  position: absolute;
+  top: 42%;
+  transform: translateY(-40%);
+  font-size: 50px;
+  margin-left: 75%;
+  color: #0A2D72;
+  border: #fff;
 }
 
 
 .palette {
     display: flex;
-    height: 300px;
+    height: 200px;
     width: 100%;
     border-radius: 15px;
     overflow: hidden;

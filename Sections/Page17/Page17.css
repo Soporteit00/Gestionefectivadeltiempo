@@ -1,7 +1,7 @@
 nav {
 	margin: 27px auto 0;
 	position: relative;
-	width: 75%;
+	width: 80%;
 	height: 40px;
 	background-color: #0A2D72;
 	border-radius: 5px;
@@ -45,29 +45,29 @@ p{
     
 }
 
+
 .left{
-    font-size: 50px;
-    margin-right: 75%;
-    color: #0A2D72;
-    position: absolute;
-    top: 30%;
-    transform: translateY(-40%);
+  font-size: 50px;
+  margin-right: 75%;
+  color: #0A2D72;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
 }
 
 .right{
-    position: absolute;
-    top: 30%;
-    transform: translateY(-40%);
-    font-size: 50px;
-    margin-left: 70%;
-    color: #0A2D72;
-    border: #fff;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  font-size: 50px;
+  margin-left: 75%;
+  color: #0A2D72;
+  border: #fff;
 }
-
   
 .card1 {
-    width: 400px;
-    height: 455px;
+    width: 280px;
+    height: 350px;
     background: lightgray;
     display: flex;
     align-items: center;
@@ -80,12 +80,13 @@ p{
     transition: all 0.7s ease-in-out;
     overflow: hidden;
     margin-top: 10%;
+    margin-left: 13%;
   }
   
   .card1::before {
     content: "";
     position: absolute;
-    height: 30%;
+    height: 40%;
     width: 100%;
     background-color: #0A2D72;
     bottom: 0;
@@ -113,7 +114,7 @@ p{
     font-size: 25px;
   }
   .video{
-    width: 400px;
-    margin-top: 10%;
+    width:500px;
+    margin-top: 30%;
 
   }

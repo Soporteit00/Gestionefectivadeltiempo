@@ -1,7 +1,7 @@
 nav {
 	margin: 27px auto 0;
 	position: relative;
-	width: 75%;
+	width: 80%;
 	height: 40px;
 	background-color: #0A2D72;
 	border-radius: 5px;
@@ -46,22 +46,22 @@ p{
 }
 
 .left{
-    font-size: 50px;
-    margin-right: 75%;
-    color: #0A2D72;
-    position: absolute;
-    top: 30%;
-    transform: translateY(-40%);
+  font-size: 50px;
+  margin-right: 75%;
+  color: #0A2D72;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
 }
 
 .right{
-    position: absolute;
-    top: 30%;
-    transform: translateY(-40%);
-    font-size: 50px;
-    margin-left: 70%;
-    color: #0A2D72;
-    border: #fff;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  font-size: 50px;
+  margin-left: 75%;
+  color: #0A2D72;
+  border: #fff;
 }
 
 .page {
@@ -75,8 +75,10 @@ p{
     line-height: 1.2rem;
     padding: 1.9rem 0.6rem 0.4rem 4.8rem;
     font-family: 'Alegreya', serif;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-bottom: 5%;
+
+ 
   }
   
   .page::before,
@@ -89,6 +91,7 @@ p{
     box-shadow: 0 5px 14px #0A2D72;
     z-index: -1;
     transition: all 0.3s ease;
+   
   }
   
   .page::before {
@@ -129,6 +132,11 @@ p{
   }
 
   .video{
-    width: 450px;
-    margin-top: 10%;
+    width: 495px;
+    margin-top: 30%;
+    margin-bottom: 7%;
+  }
+
+  .col{
+    margin-left: 4%;
   }

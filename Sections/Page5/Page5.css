@@ -1,7 +1,7 @@
 nav {
 	margin: 27px auto 0;
 	position: relative;
-	width: 75%;
+	width: 80%;
 	height: 40px;
 	background-color: #0A2D72;
 	border-radius: 5px;
@@ -50,16 +50,16 @@ p{
     margin-right: 75%;
     color: #0A2D72;
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-40%);
 }
 
 .right{
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-40%);
     font-size: 50px;
-    margin-left: 70%;
+    margin-left: 75%;
     color: #0A2D72;
     border: #fff;
 }
@@ -68,11 +68,23 @@ p{
     display:flex;
     flex-direction:column;
     justify-content: space-around;
+    width:390px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #0A2D72;
+    border-radius:15px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.card1{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
     width:400px;
     border: 1px solid lightgray;
     box-shadow: 2px 2px 8px 4px #0A2D72;
     border-radius:15px;
-    margin-top: 5%;
+    margin-top: 35%;
 }
 
 li{
@@ -81,5 +93,7 @@ li{
 }
 
 .video{
-    width: 425px;
+    width: 420px;
+    margin-top: 25%;
+    margin-left: 10%;
 }

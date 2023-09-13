@@ -1,3 +1,15 @@
+.container{
+    width: 85%;
+    height: 90%;
+    background-image: url("../../img/Page35/Page35.jpg");
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+}
+
+
 nav {
 	margin: 27px auto 0;
 	position: relative;
@@ -31,12 +43,15 @@ h2{
 h3{
     font-family: 'Alegreya', serif;
     text-align: center;
+    background-color: #fff;
+
 }
 
 p{
     font-family: 'Alegreya', serif;
     font-size: 25px;
     text-align: center;
+    background-color: #fff;
 }
 
 .botones{
@@ -64,23 +79,49 @@ p{
     border: #fff;
 }
 
-.circle {
-    margin-top: 15%;
-    background:  #f9b515;
-    border-radius: 50%;
-    width:415px;
-    height: 510px;
-    box-shadow: 2px 2px 8px 4px #0A2D72 ;
-}
-
-
-p{
-    font-family: 'Alegreya', serif;
-    font-size: 23px;
-    text-align: center;
-}
-
-.video{
-    width: 400px;
-    margin-top: 15%;
-}
+.button {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: #0A2D72;
+    border: 2px solid #0A2D72;
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+    margin-left: 43%;
+    margin-bottom: 10%;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: #0A2D72;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button:hover::before {
+    scale: 3;
+  }
+  
+  .button:hover {
+    color: #ffffff;
+    scale: 1.1;
+    box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+  }
+  
+  .button:active {
+    scale: 1;
+  }
+  
+  
+  

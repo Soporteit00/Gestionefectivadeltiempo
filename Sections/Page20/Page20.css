@@ -1,7 +1,7 @@
 nav {
 	margin: 27px auto 0;
 	position: relative;
-	width: 75%;
+	width: 80%;
 	height: 40px;
 	background-color: #0A2D72;
 	border-radius: 5px;
@@ -45,47 +45,39 @@ p{
     
 }
 
+
 .left{
-    font-size: 50px;
-    margin-right: 75%;
-    color: #0A2D72;
-    position: absolute;
-    top: 30%;
-    transform: translateY(-40%);
+  font-size: 50px;
+  margin-right: 75%;
+  color: #0A2D72;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
 }
 
 .right{
-    position: absolute;
-    top: 30%;
-    transform: translateY(-40%);
-    font-size: 50px;
-    margin-left: 70%;
-    color: #0A2D72;
-    border: #fff;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  font-size: 50px;
+  margin-left: 75%;
+  color: #0A2D72;
+  border: #fff;
 }
 
-.card1{
-    display:flex;
-    flex-direction:column;
-    justify-content: space-around;
-    width:420px;
-    border: 1px solid lightgray;
-    box-shadow: 2px 2px 8px 4px #0A2D72;
-    border-radius:15px;
-    margin-top: 10%;
-}
 
 .card2{
     position: relative;
-    width: 350px;
-    height: 550px;
+    width: 390px;
+    height: 540px;
     background: #0A2D72;
     overflow: hidden;
     border: 1px solid black;
     box-shadow: #0A2D72;
     margin-top: 5%;
     border-radius:15px;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-left: 12%;
   }
   
   .card2:hover {
@@ -157,7 +149,7 @@ p{
   .box1 {
     top: -85%;
     right: -40%;
-    background: rgb(255, 174, 0);
+    background: rgb(255, 194, 52);
     border-radius: 200px;
   }
   
@@ -176,6 +168,6 @@ p{
   }
 
   .video{
-    width: 400px;
+    width: 700px;
     margin-top: 15%;
   }

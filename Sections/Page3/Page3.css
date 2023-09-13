@@ -1,7 +1,7 @@
 nav {
 	margin: 27px auto 0;
 	position: relative;
-	width: 75%;
+	width: 80%;
 	height: 40px;
 	background-color: #0A2D72;
 	border-radius: 5px;
@@ -47,41 +47,40 @@ p{
 
 .left{
     font-size: 50px;
-    margin-right: 75%;
+    margin-right: 81%;
     color: #0A2D72;
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-40%);
 }
 
 .right{
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-40%);
     font-size: 50px;
-    margin-left: 70%;
+    margin-left: 81%;
     color: #0A2D72;
     border: #fff;
 }
-
 .circle{
-    width: 400px;
+    width: 390px;
     height: 400px;
     background-color: #f9b515;
     border-radius: 50%;
-    margin-top: 10%;
-    margin-bottom: 3%;
+    margin-top: 30%;
+    margin-bottom: 10%;
     box-shadow: 2px 2px 8px 4px #0A2D72;
+
 }
 
-
-.p{
+li{
     font-family: 'Alegreya', serif;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     color: #ffffff;
 }
 
 .video{
-    width: 420px;
+    width: 410px;
 }

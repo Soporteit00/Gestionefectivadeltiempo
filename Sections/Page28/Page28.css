@@ -1,7 +1,7 @@
 nav {
 	margin: 27px auto 0;
 	position: relative;
-	width: 75%;
+	width: 80%;
 	height: 40px;
 	background-color: #0A2D72;
 	border-radius: 5px;
@@ -50,19 +50,19 @@ p{
     margin-right: 75%;
     color: #0A2D72;
     position: absolute;
-    top: 30%;
+    top: 42%;
     transform: translateY(-40%);
-}
-
-.right{
+  }
+  
+  .right{
     position: absolute;
-    top: 30%;
+    top: 42%;
     transform: translateY(-40%);
     font-size: 50px;
-    margin-left: 70%;
+    margin-left: 75%;
     color: #0A2D72;
     border: #fff;
-}
+  }
 
 .card{
     display:flex;
@@ -72,10 +72,11 @@ p{
     border: 1px solid lightgray;
     box-shadow: 2px 2px 8px 4px #0A2D72;
     border-radius:15px;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .video{
-    width: 400px;
-    margin-top: 10%;
+    width: 500px;
+    margin-top: 7%;
+    margin-left: 10%;
 }

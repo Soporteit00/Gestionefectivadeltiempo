@@ -1,7 +1,7 @@
 nav {
 	margin: 27px auto 0;
 	position: relative;
-	width: 75%;
+	width: 80%;
 	height: 40px;
 	background-color: #0A2D72;
 	border-radius: 5px;
@@ -45,41 +45,35 @@ p{
     
 }
 
+
 .left{
     font-size: 50px;
     margin-right: 75%;
     color: #0A2D72;
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-40%);
-}
-
-.right{
+  }
+  
+  .right{
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-40%);
     font-size: 50px;
-    margin-left: 70%;
+    margin-left: 75%;
     color: #0A2D72;
     border: #fff;
-}
+  }
+
 
 .circle {
-    margin-top: 60%;
-    background: #0A2D72;
-    border-radius: 50%;
-    width: 285px;
-    height: 290px;
-    box-shadow: 2px 2px 8px 4px #f9b515;
-}
-
-.circle1 {
-    margin-top: 10%;
+    margin-top: 2%;
     background: #f9b515;
     border-radius: 50%;
     width: 177px;
     height: 160px;
     box-shadow: 2px 2px 8px 4px #0A2D72;
+    margin-left: 30%;
 }
 
 .p{
@@ -90,19 +84,6 @@ p{
     color: #fff;
  }
 
-
-
- .card{
-    display:flex;
-    flex-direction:column;
-    justify-content: space-around;
-    width:440px;
-    border: 1px solid lightgray;
-    box-shadow: 2px 2px 8px 4px #0A2D72;
-    border-radius:15px;
-    margin-top: 2%;
-}
-
 .video{
-    width: 200%;
+    width: 700px;
 }

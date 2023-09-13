@@ -1,7 +1,7 @@
 nav {
 	margin: 27px auto 0;
 	position: relative;
-	width: 75%;
+	width: 80%;
 	height: 40px;
 	background-color: #0A2D72;
 	border-radius: 5px;
@@ -49,21 +49,21 @@ p{
     margin-right: 75%;
     color: #0A2D72;
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-40%);
 }
 
 .right{
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-40%);
     font-size: 50px;
-    margin-left: 70%;
+    margin-left: 75%;
     color: #0A2D72;
     border: #fff;
 }
 
-.cardBox {
+/* .cardBox {
   margin-left: 15%;
     width: 395px;
     height: 520px;
@@ -161,4 +161,10 @@ p{
   li{
     font-family: 'Alegreya', serif;
     font-size: 25px;
+  } */
+
+  .video{
+    margin-top: 2%;
+    height: 600px;
+   margin-left: 10%;
   }
